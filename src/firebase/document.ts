@@ -7,7 +7,7 @@ export interface UserDocument {
   createdAt: any;
 }
 
-export interface Banner {
+export interface BannerSettings {
   message: string;
   startDate: any;
   endDate: any;
@@ -15,6 +15,7 @@ export interface Banner {
   id: string;
   createdAt: any;
   isActive: boolean;
+  backgroundColor?: string;
 }
 
 export type SiteBuildStatus = "pending" | "failed" | "finished" | "processing";

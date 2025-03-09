@@ -9,51 +9,26 @@ export type TSection =
   | "menu-service"
   | "freestyle";
 
-export type HeroSectionTemplate = "default" | "emergency";
+export type HeroSectionTemplate = "default";
 export type ServicesSectionTemplate =
   | "default"
-  | "grid"
-  | "carousel"
-  | "featured"
-  | "icon-grid";
+  | "services-list"
+  | "services-cards"
 export type GallerySectionTemplate =
   | "default"
-  | "masonry"
-  | "carousel"
-  | "grid"
-  | "fullscreen";
+
 export type AboutSectionTemplate =
   | "default"
-  | "side-by-side"
-  | "timeline"
-  | "team"
-  | "story";
+
 export type TestimonialsSectionTemplate =
   | "default"
-  | "carousel"
-  | "grid"
-  | "quotes"
-  | "cards";
+
 export type ContactSectionTemplate =
   | "default"
-  | "minimal"
-  | "split"
-  | "map-focused"
-  | "form-focused";
+
 export type GastroMenuSectionTemplate =
-  | "default"
-  | "elegant"
-  | "cards"
-  | "tabs"
-  | "categorized";
+  | "default";
 export type ServiceMenuSectionTemplate =
   | "default"
-  | "pricing-table"
-  | "cards"
-  | "comparison"
-  | "featured";
 export type FreestyleSectionTemplate =
   | "default"
-  | "grid"
-  | "flex"
-  | "responsive"; 
