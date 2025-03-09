@@ -28,6 +28,20 @@ This package includes types for:
 - Form definitions
 - And more
 
+## Structure
+
+The types are organized into domain-specific modules:
+
+- `firebase/` - Firebase-related types
+- `site/` - Core site structure types
+- `content/` - Content repository types
+- `sections/` - Section-related types
+- `pages/` - Page-related types
+- `common/` - Shared types like Image, CTA
+- `utils/` - Utility types
+
+This organization makes it easier to find and use the types you need.
+
 ## Development
 
 To build the package:
@@ -35,6 +49,10 @@ To build the package:
 ```bash
 npm run build
 ```
+
+## Documentation
+
+For detailed information about changes and development history, see the [Development Log](./docs/DEVLOG.md).
 
 ## Publishing
 
