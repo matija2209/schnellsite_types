@@ -1,3 +1,5 @@
+import { LatLng } from './location';
+
 export interface LocalizedText {
   text: string;
   languageCode: string;
@@ -67,7 +69,7 @@ export interface AuthorAttribution {
 }
 
 export interface Point {
-  // Define Point export interface as needed
+  // Define Point interface as needed
 }
 
 export interface Period {
@@ -101,7 +103,7 @@ export interface Date {
   day: number;
 }
 
-export interface OpeningHours {
+export interface GoogleOpeningHours {
   periods: Period[];
   weekdayDescriptions: string[];
   secondaryHoursType: SecondaryHoursType;
@@ -117,11 +119,6 @@ export interface Review {
   rating: number;
   authorAttribution: AuthorAttribution;
   publishTime: string;
-}
-
-export interface LatLng {
-  latitude: number;
-  longitude: number;
 }
 
 export interface GooglePlaceV2 {
@@ -143,7 +140,7 @@ export interface GooglePlaceV2 {
   googleMapsUri: string;
   websiteUri: string;
   reviews: Review[];
-  regularOpeningHours: OpeningHours;
+  regularOpeningHours: GoogleOpeningHours;
   photos: Photo[];
   adrFormatAddress: string;
   businessStatus: BusinessStatus;
@@ -151,9 +148,9 @@ export interface GooglePlaceV2 {
   attributions: AuthorAttribution[];
   iconMaskBaseUri: string;
   iconBackgroundColor: string;
-  currentOpeningHours: OpeningHours;
-  currentSecondaryOpeningHours: OpeningHours[];
-  regularSecondaryOpeningHours: OpeningHours[];
+  currentOpeningHours: GoogleOpeningHours;
+  currentSecondaryOpeningHours: GoogleOpeningHours[];
+  regularSecondaryOpeningHours: GoogleOpeningHours[];
   editorialSummary: LocalizedText;
   paymentOptions: PaymentOptions;
   parkingOptions: ParkingOptions;
@@ -186,4 +183,4 @@ export interface GooglePlaceV2 {
   goodForGroups: boolean;
   goodForWatchingSports: boolean;
   accessibilityOptions: AccessibilityOptions;
-}
+} 
