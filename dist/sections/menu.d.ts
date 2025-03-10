@@ -21,3 +21,4 @@ export interface ServiceMenuSection extends SectionBase {
     type: "menu-service";
     sectionTemplate?: ServiceMenuSectionTemplate;
 }
+//# sourceMappingURL=menu.d.ts.map

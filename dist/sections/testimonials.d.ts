@@ -9,3 +9,4 @@ export interface TestimonialsSection extends SectionBase {
     type: "testimonials";
     sectionTemplate?: TestimonialsSectionTemplate;
 }
+//# sourceMappingURL=testimonials.d.ts.map

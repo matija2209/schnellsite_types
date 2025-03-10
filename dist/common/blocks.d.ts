@@ -35,3 +35,4 @@ export interface FreestyleBlock {
     customClasses: string;
     children: FreestyleBlock[];
 }
+//# sourceMappingURL=blocks.d.ts.map

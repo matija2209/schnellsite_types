@@ -7,3 +7,4 @@ export interface GeneralInformation {
     address: string;
     googlePlaceId?: string;
 }
+//# sourceMappingURL=general.d.ts.map

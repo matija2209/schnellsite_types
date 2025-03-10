@@ -4,3 +4,4 @@ export interface CTA {
     blockType: "cta";
     customClasses?: string;
 }
+//# sourceMappingURL=cta.d.ts.map

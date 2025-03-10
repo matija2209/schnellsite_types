@@ -38,3 +38,4 @@ export interface ScreenshotRequest {
     id: string;
     createdAt: any;
 }
+//# sourceMappingURL=document.d.ts.map

@@ -8,3 +8,4 @@ export interface FaqItem {
     answer: string;
     order: number;
 }
+//# sourceMappingURL=faq.d.ts.map

@@ -21,3 +21,4 @@ export interface ContentAddon {
     name: string;
     description?: string;
 }
+//# sourceMappingURL=menu.d.ts.map

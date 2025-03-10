@@ -17,3 +17,4 @@ import { ContactSection } from './contact';
 import { GastroMenuSection, ServiceMenuSection } from './menu';
 import { FreestyleSection } from './freestyle';
 export type Section = HeroSection | AboutSection | ServicesSection | GallerySection | TestimonialsSection | ContactSection | GastroMenuSection | ServiceMenuSection | FreestyleSection;
+//# sourceMappingURL=index.d.ts.map

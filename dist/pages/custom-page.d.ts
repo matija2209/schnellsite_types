@@ -13,3 +13,4 @@ export interface CustomPage {
     blocks?: ExtraBlock[];
     details: PageDetails;
 }
+//# sourceMappingURL=custom-page.d.ts.map

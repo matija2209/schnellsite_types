@@ -6,3 +6,4 @@ export interface Testimonial {
     rating?: number;
     customClasses?: string;
 }
+//# sourceMappingURL=testimonials.d.ts.map

@@ -3,3 +3,4 @@ export interface Hosting {
     siteName: string;
     siteUrl?: string;
 }
+//# sourceMappingURL=hosting.d.ts.map

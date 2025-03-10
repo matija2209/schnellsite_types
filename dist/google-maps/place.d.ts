@@ -141,3 +141,4 @@ export interface GooglePlaceV2 {
     goodForWatchingSports: boolean;
     accessibilityOptions: AccessibilityOptions;
 }
+//# sourceMappingURL=place.d.ts.map

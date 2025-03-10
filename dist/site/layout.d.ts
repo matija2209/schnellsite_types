@@ -17,3 +17,4 @@ export interface Layout {
     navbar: NavbarSettings;
     footer: FooterSettings;
 }
+//# sourceMappingURL=layout.d.ts.map

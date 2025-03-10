@@ -5,3 +5,4 @@ export * from './services';
 export * from './faq';
 export * from './opening-times';
 export * from './repository';
+//# sourceMappingURL=index.d.ts.map

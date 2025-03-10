@@ -7,3 +7,4 @@ export interface GallerySection extends SectionBase {
     type: "gallery";
     sectionTemplate?: GallerySectionTemplate;
 }
+//# sourceMappingURL=gallery.d.ts.map

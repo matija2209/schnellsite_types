@@ -12,3 +12,4 @@ export interface AboutSection extends SectionBase {
     type: "about";
     sectionTemplate?: AboutSectionTemplate;
 }
+//# sourceMappingURL=about.d.ts.map

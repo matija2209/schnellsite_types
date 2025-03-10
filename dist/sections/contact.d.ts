@@ -13,3 +13,4 @@ export interface ContactSection extends SectionBase {
     type: "contact";
     sectionTemplate?: ContactSectionTemplate;
 }
+//# sourceMappingURL=contact.d.ts.map

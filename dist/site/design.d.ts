@@ -16,3 +16,4 @@ export interface Design {
         backupFont: string;
     };
 }
+//# sourceMappingURL=design.d.ts.map

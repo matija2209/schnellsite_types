@@ -20,3 +20,4 @@ export interface ContentRepository {
         message: string;
     };
 }
+//# sourceMappingURL=repository.d.ts.map

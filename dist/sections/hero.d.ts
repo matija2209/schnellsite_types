@@ -10,3 +10,4 @@ export interface HeroSection extends SectionBase {
     type: "hero";
     sectionTemplate?: HeroSectionTemplate;
 }
+//# sourceMappingURL=hero.d.ts.map

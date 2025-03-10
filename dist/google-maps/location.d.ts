@@ -20,3 +20,4 @@ export interface PlaceTableSubmit {
     selectedPlaceIds: string[];
     template: Template;
 }
+//# sourceMappingURL=location.d.ts.map

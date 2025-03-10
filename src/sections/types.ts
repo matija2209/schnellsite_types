@@ -22,6 +22,7 @@ export type AboutSectionTemplate =
 
 export type TestimonialsSectionTemplate =
   | "default"
+  | "carousel-one"
 
 export type ContactSectionTemplate =
   | "default"

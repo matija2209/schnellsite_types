@@ -7,7 +7,11 @@
         "strict": true,
         "esModuleInterop": true,
         "skipLibCheck": true,
-        "forceConsistentCasingInFileNames": true
+        "forceConsistentCasingInFileNames": true,
+        "rootDir": "./src",
+        "composite": true,
+        "declarationMap": true,
+        "preserveSymlinks": true
     },
     "include": [
         "src"

@@ -19,3 +19,4 @@ export interface SiteData {
     createdBy: string;
     hosting: Hosting;
 }
+//# sourceMappingURL=site-data.d.ts.map

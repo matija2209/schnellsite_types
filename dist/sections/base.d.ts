@@ -10,3 +10,4 @@ export interface SectionBase {
     headingClasses?: string;
     subtitleClasses?: string;
 }
+//# sourceMappingURL=base.d.ts.map

@@ -14,3 +14,4 @@ export interface Site {
     favicon: Image;
     seo: Seo;
 }
+//# sourceMappingURL=site.d.ts.map

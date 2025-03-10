@@ -9,3 +9,4 @@ export interface FreestyleSection extends SectionBase {
     type: "freestyle";
     sectionTemplate?: FreestyleSectionTemplate;
 }
+//# sourceMappingURL=freestyle.d.ts.map
