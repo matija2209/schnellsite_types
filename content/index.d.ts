@@ -1,2 +1,2 @@
 // Re-export types from dist
-export * from './dist/content';
+export * from '../dist/content';

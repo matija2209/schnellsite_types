@@ -18,8 +18,9 @@
     "README.md"
   ],
   "scripts": {
-    "build": "tsc",
-    "postbuild": "node scripts/create-nested-exports.js",
+    "clean": "node scripts/cleanup.js",
+    "create-exports": "node scripts/create-nested-exports.js",
+    "build": "npm run clean && npx tsc --build --force && npm run create-exports",
     "prepare": "npm run build",
     "dev": "tsc --watch"
   },
@@ -32,5 +33,43 @@
   "license": "ISC",
   "devDependencies": {
     "typescript": "^5.8.2"
+  },
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    },
+    "./firebase": {
+      "types": "./dist/firebase/index.d.ts",
+      "default": "./dist/firebase/index.js"
+    },
+    "./site": {
+      "types": "./dist/site/index.d.ts",
+      "default": "./dist/site/index.js"
+    },
+    "./content": {
+      "types": "./dist/content/index.d.ts",
+      "default": "./dist/content/index.js"
+    },
+    "./sections": {
+      "types": "./dist/sections/index.d.ts",
+      "default": "./dist/sections/index.js"
+    },
+    "./pages": {
+      "types": "./dist/pages/index.d.ts",
+      "default": "./dist/pages/index.js"
+    },
+    "./common": {
+      "types": "./dist/common/index.d.ts",
+      "default": "./dist/common/index.js"
+    },
+    "./utils": {
+      "types": "./dist/utils/index.d.ts",
+      "default": "./dist/utils/index.js"
+    },
+    "./google-maps": {
+      "types": "./dist/google-maps/index.d.ts",
+      "default": "./dist/google-maps/index.js"
+    }
   }
 }

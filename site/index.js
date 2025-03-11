@@ -1,2 +1,2 @@
 // Re-export from dist
-module.exports = require('./dist/site');
+module.exports = require('../dist/site');

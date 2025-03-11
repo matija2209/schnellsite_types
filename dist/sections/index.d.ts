@@ -8,6 +8,7 @@ export * from './testimonials';
 export * from './contact';
 export * from './menu';
 export * from './freestyle';
+export * from './faq';
 import { HeroSection } from './hero';
 import { AboutSection } from './about';
 import { ServicesSection } from './services';
@@ -16,5 +17,6 @@ import { TestimonialsSection } from './testimonials';
 import { ContactSection } from './contact';
 import { GastroMenuSection, ServiceMenuSection } from './menu';
 import { FreestyleSection } from './freestyle';
-export type Section = HeroSection | AboutSection | ServicesSection | GallerySection | TestimonialsSection | ContactSection | GastroMenuSection | ServiceMenuSection | FreestyleSection;
+import { FaqSection } from './faq';
+export type Section = HeroSection | AboutSection | ServicesSection | GallerySection | TestimonialsSection | ContactSection | GastroMenuSection | ServiceMenuSection | FreestyleSection | FaqSection;
 //# sourceMappingURL=index.d.ts.map

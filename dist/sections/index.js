@@ -24,3 +24,4 @@ __exportStar(require("./testimonials"), exports);
 __exportStar(require("./contact"), exports);
 __exportStar(require("./menu"), exports);
 __exportStar(require("./freestyle"), exports);
+__exportStar(require("./faq"), exports);

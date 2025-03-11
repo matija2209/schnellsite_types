@@ -18,7 +18,7 @@ const directories = [
   'google-maps'
 ];
 
-// Create the directory structure in the dist folder
+// Create the directory structure in the root folder
 directories.forEach(dir => {
   // Create the directory in the root of the package
   const rootDir = path.join(__dirname, '..', dir);
@@ -28,13 +28,13 @@ directories.forEach(dir => {
 
   // Create an index.js file that re-exports from dist
   const indexContent = `// Re-export from dist
-module.exports = require('./dist/${dir}');
+module.exports = require('../dist/${dir}');
 `;
   fs.writeFileSync(path.join(rootDir, 'index.js'), indexContent);
 
   // Create an index.d.ts file that re-exports types
   const dtsContent = `// Re-export types from dist
-export * from './dist/${dir}';
+export * from '../dist/${dir}';
 `;
   fs.writeFileSync(path.join(rootDir, 'index.d.ts'), dtsContent);
 

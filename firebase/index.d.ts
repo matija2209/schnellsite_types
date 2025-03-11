@@ -1,2 +1,2 @@
 // Re-export types from dist
-export * from './dist/firebase';
+export * from '../dist/firebase';

@@ -7,7 +7,8 @@ export type TSection =
   | "contact"
   | "menu"
   | "menu-service"
-  | "freestyle";
+  | "freestyle"
+  | "faq";
 
 export type HeroSectionTemplate = "default";
 export type ServicesSectionTemplate =
@@ -34,3 +35,5 @@ export type ServiceMenuSectionTemplate =
   | "default"
 export type FreestyleSectionTemplate =
   | "default"
+
+export type FaqSectionTemplate = "faq-accordion"

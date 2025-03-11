@@ -1,0 +1,12 @@
+import { FaqItem } from '../content';
+import { SectionBase } from './base';
+import { FaqSectionTemplate } from './types';
+
+export interface FaqSection extends SectionBase {
+  title?: string;
+  subtitle?: string;
+  name?: string; // Friendly name for identifying the section
+  items: FaqItem[];
+  type: "faq";
+  sectionTemplate?: FaqSectionTemplate;
+} 
