@@ -16,5 +16,9 @@ export interface OpeningHours {
     saturday?: DailyOperationHours;
     sunday?: DailyOperationHours;
 }
+export interface OpeningTimesCustom {
+    active: boolean;
+    message?: string;
+}
 export type OpeningTimes = "openingTimes" | "emergencyOpeningTimes";
 //# sourceMappingURL=opening-times.d.ts.map

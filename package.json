@@ -22,7 +22,7 @@
     "create-exports": "node scripts/create-nested-exports.js",
     "build": "npm run clean && npx tsc --build --force && npm run create-exports",
     "prepare": "npm run build",
-    "dev": "tsc --watch"
+    "watch": "tsc --watch"
   },
   "keywords": [
     "schnellsite",

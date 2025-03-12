@@ -28,6 +28,9 @@ export type TestimonialsSectionTemplate =
 
 export type ContactSectionTemplate =
   | "default"
+  | "modern"
+  | "split"
+  | "card"
 
 export type GastroMenuSectionTemplate =
   | "default";

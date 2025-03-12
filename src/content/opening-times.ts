@@ -19,4 +19,9 @@ export interface OpeningHours {
   sunday?: DailyOperationHours;
 }
 
+export interface OpeningTimesCustom {
+  active: boolean;
+  message?: string;
+}
+
 export type OpeningTimes = "openingTimes" | "emergencyOpeningTimes"; 
