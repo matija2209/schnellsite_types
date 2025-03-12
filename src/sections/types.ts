@@ -32,7 +32,7 @@ export type ContactSectionTemplate =
   | "split"
   | "card"
   | "wellness"
-
+  | "basic-with-form"
 export type GastroMenuSectionTemplate =
   | "default";
 export type ServiceMenuSectionTemplate =
