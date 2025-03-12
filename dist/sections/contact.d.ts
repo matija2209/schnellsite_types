@@ -2,6 +2,7 @@ import { SectionBase } from './base';
 import { ContactSectionTemplate } from './types';
 export interface ContactSection extends SectionBase {
     title: string;
+    subtitle?: string;
     includeEmail: boolean;
     includePhone: boolean;
     includeAddress: boolean;
@@ -10,7 +11,7 @@ export interface ContactSection extends SectionBase {
     includeOpeningTimes: boolean;
     includeEmergencyOpeningTimes: boolean;
     formId: string;
-    type: "contact";
     sectionTemplate?: ContactSectionTemplate;
+    type: "contact";
 }
 //# sourceMappingURL=contact.d.ts.map

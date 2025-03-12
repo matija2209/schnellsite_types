@@ -31,6 +31,7 @@ export type ContactSectionTemplate =
   | "modern"
   | "split"
   | "card"
+  | "welness"
 
 export type GastroMenuSectionTemplate =
   | "default";

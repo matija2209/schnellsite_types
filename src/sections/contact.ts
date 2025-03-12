@@ -3,6 +3,7 @@ import { ContactSectionTemplate } from './types';
 
 export interface ContactSection extends SectionBase {
   title: string;
+  subtitle?: string;
   includeEmail: boolean;
   includePhone: boolean; // Take contact phone if there other default one.
   includeAddress: boolean;
@@ -11,6 +12,6 @@ export interface ContactSection extends SectionBase {
   includeOpeningTimes: boolean;
   includeEmergencyOpeningTimes: boolean;
   formId: string;
-  type: "contact";
   sectionTemplate?: ContactSectionTemplate;
+  type: "contact";
 } 
