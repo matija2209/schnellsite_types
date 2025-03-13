@@ -14,4 +14,9 @@ export interface ContactSection extends SectionBase {
   formId?: string;
   sectionTemplate?: ContactSectionTemplate;
   type: "contact";
+  design?:{
+    transparentFormCard?: boolean;
+    includeFormTitle?: boolean;
+    includeFormSubtitle?: boolean;
+  }
 } 

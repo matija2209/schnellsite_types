@@ -1,14 +1,17 @@
 export interface Form {
   id: string;
+  title?: string;
+  subtitle?: string;
   label: string; // To identify it easier
   replyToEmail: string;
-  title: string;
+  redirectUrl?: string;
   fields: FormField[];
 }
 
 export interface FormField {
   id: string;
   name: string;
+  label: string;
   placeholder: string;
   type: FormFieldType;
   required?: boolean;
