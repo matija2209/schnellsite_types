@@ -1,6 +1,13 @@
 import { SectionBase } from './base';
 import { ContactSectionTemplate } from './types';
-export interface ContactSection extends SectionBase {
+type BaseVisibility = NonNullable<SectionBase['visibility']>;
+export interface ContactVisibilityExtension {
+    transparentFormCard?: boolean;
+    hideFormTitle?: boolean;
+    hideFormSubtitle?: boolean;
+}
+export type ContactVisibility = BaseVisibility & ContactVisibilityExtension;
+export interface ContactSection extends Omit<SectionBase, 'visibility'> {
     title?: string;
     subtitle?: string;
     includeEmail?: boolean;
@@ -13,10 +20,7 @@ export interface ContactSection extends SectionBase {
     formId?: string;
     sectionTemplate?: ContactSectionTemplate;
     type: "contact";
-    design?: {
-        transparentFormCard?: boolean;
-        includeFormTitle?: boolean;
-        includeFormSubtitle?: boolean;
-    };
+    visibility?: ContactVisibility;
 }
+export {};
 //# sourceMappingURL=contact.d.ts.map

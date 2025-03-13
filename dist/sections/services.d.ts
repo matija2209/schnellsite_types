@@ -2,7 +2,16 @@ import { CTA } from '../common/cta';
 import { Service } from '../content/services';
 import { SectionBase } from './base';
 import { ServicesSectionTemplate } from './types';
-export interface ServicesSection extends SectionBase {
+type BaseVisibility = NonNullable<SectionBase['visibility']>;
+export interface ServicesVisibilityExtension {
+    hideServiceTitles?: boolean;
+    hideServiceDescriptions?: boolean;
+    hideServiceIcons?: boolean;
+    hideServiceCTAs?: boolean;
+    collapseEmptyServices?: boolean;
+}
+export type ServicesVisibility = BaseVisibility & ServicesVisibilityExtension;
+export interface ServicesSection extends Omit<SectionBase, 'visibility'> {
     services?: Service[];
     includeServices?: boolean;
     title?: string;
@@ -14,5 +23,7 @@ export interface ServicesSection extends SectionBase {
         transparentCards?: boolean;
         gridColumns?: "grid-cols-1" | "grid-cols-2" | "grid-cols-3" | "grid-cols-4";
     };
+    visibility?: ServicesVisibility;
 }
+export {};
 //# sourceMappingURL=services.d.ts.map
