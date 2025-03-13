@@ -6,7 +6,7 @@ export interface FaqSection extends SectionBase {
   title?: string;
   subtitle?: string;
   name?: string; // Friendly name for identifying the section
-  items: FaqItem[];
+  items?: FaqItem[];
   type: "faq";
   sectionTemplate?: FaqSectionTemplate;
 } 

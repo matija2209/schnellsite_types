@@ -5,7 +5,7 @@ export interface FreestyleSection extends SectionBase {
     title?: string;
     subtitle?: string;
     name?: string;
-    blocks: FreestyleBlock[];
+    blocks?: FreestyleBlock[];
     type: "freestyle";
     sectionTemplate?: FreestyleSectionTemplate;
 }

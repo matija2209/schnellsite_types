@@ -5,7 +5,7 @@ export interface SectionBase {
   id: string;
   type: TSection;
   extraBlocks?: ExtraBlock[]; // Optional array of ExtraBlock
-  excludeSection: boolean;
+  excludeSection?: boolean;
   sectionClasses?: string;
   contentClasses?: string;
   headingClasses?: string;
