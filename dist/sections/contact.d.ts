@@ -2,9 +2,12 @@ import { SectionBase } from './base';
 import { ContactSectionTemplate } from './types';
 type BaseVisibility = NonNullable<SectionBase['visibility']>;
 export interface ContactVisibilityExtension {
-    transparentFormCard?: boolean;
     hideFormTitle?: boolean;
     hideFormSubtitle?: boolean;
+}
+export interface ContactDesignExtension {
+    transparentFormCard?: boolean;
+    transparentInfoCard?: boolean;
 }
 export type ContactVisibility = BaseVisibility & ContactVisibilityExtension;
 export interface ContactSection extends Omit<SectionBase, 'visibility'> {
@@ -14,6 +17,7 @@ export interface ContactSection extends Omit<SectionBase, 'visibility'> {
     includePhone?: boolean;
     includeAddress?: boolean;
     includeForm?: boolean;
+    design?: ContactDesignExtension;
     includeMap?: boolean;
     includeOpeningTimes?: boolean;
     includeEmergencyOpeningTimes?: boolean;

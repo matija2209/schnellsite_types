@@ -6,9 +6,13 @@ type BaseVisibility = NonNullable<SectionBase['visibility']>;
 
 // Define the additional visibility options for contact section
 export interface ContactVisibilityExtension {
-  transparentFormCard?: boolean;
   hideFormTitle?: boolean;
   hideFormSubtitle?: boolean;
+}
+
+export interface ContactDesignExtension {
+  transparentFormCard?: boolean;
+  transparentInfoCard?: boolean;
 }
 
 // Create a merged type that combines both base and contact-specific visibility options
@@ -22,6 +26,7 @@ export interface ContactSection extends Omit<SectionBase, 'visibility'> {
   includePhone?: boolean; // Take contact phone if there other default one.
   includeAddress?: boolean;
   includeForm?: boolean;
+  design?:ContactDesignExtension
   includeMap?: boolean;
   includeOpeningTimes?: boolean;
   includeEmergencyOpeningTimes?: boolean;
