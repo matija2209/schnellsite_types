@@ -3,6 +3,7 @@ import { ExtraBlock } from '../common/blocks';
 export interface SectionBase {
     id: string;
     type: TSection;
+    htmlId?: string;
     customStyles?: string;
     visibility?: {
         hideSectionTitle?: boolean;
