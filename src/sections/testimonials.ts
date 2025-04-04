@@ -1,4 +1,4 @@
-import { TestimonialsSectionTemplate } from '@schnellsite/template-system/dist/types/templates';
+import { TestimonialsSectionTemplate } from '@schnellsite/template-system';
 import { Testimonial } from '../content/testimonials';
 import { SectionBase } from './base';
 
