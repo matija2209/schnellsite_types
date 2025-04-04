@@ -1,7 +1,8 @@
+
+import { ServicesSectionTemplate } from '@schnellsite/template-system';
 import { CTA } from '../common/cta';
 import { Service } from '../content/services';
 import { SectionBase } from './base';
-import { ServicesSectionTemplate } from './types';
 
 // First, let's extract the visibility type from SectionBase to reuse it
 type BaseVisibility = NonNullable<SectionBase['visibility']>;

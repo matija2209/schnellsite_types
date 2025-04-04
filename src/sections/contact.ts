@@ -1,5 +1,6 @@
+import { ContactSectionTemplate } from '@schnellsite/template-system';
 import { SectionBase } from './base';
-import { ContactSectionTemplate } from './types';
+
 
 // First, extract the visibility type from SectionBase
 type BaseVisibility = NonNullable<SectionBase['visibility']>;

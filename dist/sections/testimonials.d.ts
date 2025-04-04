@@ -1,6 +1,6 @@
+import { TestimonialsSectionTemplate } from '@schnellsite/template-system/dist/types/templates';
 import { Testimonial } from '../content/testimonials';
 import { SectionBase } from './base';
-import { TestimonialsSectionTemplate } from './types';
 type BaseVisibility = NonNullable<SectionBase['visibility']>;
 export interface TestimonialsVisibilityExtension {
     transparentTestimonialCards?: boolean;

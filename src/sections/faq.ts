@@ -1,6 +1,7 @@
+import { FaqSectionTemplate } from '@schnellsite/template-system';
 import { FaqItem } from '../content';
 import { SectionBase } from './base';
-import { FaqSectionTemplate } from './types';
+
 
 export interface FaqSection extends SectionBase {
   title?: string;

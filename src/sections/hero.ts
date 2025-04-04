@@ -1,7 +1,8 @@
+import { HeroSectionTemplate } from '@schnellsite/template-system';
 import { CTA } from '../common/cta';
 import { Image } from '../common/image';
 import { SectionBase } from './base';
-import { HeroSectionTemplate } from './types';
+
 
 export interface HeroSection extends SectionBase {
   title?: string;

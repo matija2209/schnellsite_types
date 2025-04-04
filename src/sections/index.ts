@@ -1,4 +1,4 @@
-export * from './types';
+
 export * from './base';
 export * from './hero';
 export * from './about';

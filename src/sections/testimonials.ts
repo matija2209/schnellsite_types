@@ -1,6 +1,7 @@
+import { TestimonialsSectionTemplate } from '@schnellsite/template-system/dist/types/templates';
 import { Testimonial } from '../content/testimonials';
 import { SectionBase } from './base';
-import { TestimonialsSectionTemplate } from './types';
+
 
 
 // First, let's extract the visibility type from SectionBase to reuse it

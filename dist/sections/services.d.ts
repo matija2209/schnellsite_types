@@ -1,7 +1,7 @@
+import { ServicesSectionTemplate } from '@schnellsite/template-system';
 import { CTA } from '../common/cta';
 import { Service } from '../content/services';
 import { SectionBase } from './base';
-import { ServicesSectionTemplate } from './types';
 type BaseVisibility = NonNullable<SectionBase['visibility']>;
 export interface ServicesVisibilityExtension {
     hideServiceTitles?: boolean;

@@ -1,5 +1,5 @@
+import { ContactSectionTemplate } from '@schnellsite/template-system';
 import { SectionBase } from './base';
-import { ContactSectionTemplate } from './types';
 type BaseVisibility = NonNullable<SectionBase['visibility']>;
 export interface ContactVisibilityExtension {
     hideFormTitle?: boolean;

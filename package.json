@@ -22,6 +22,8 @@
     "create-exports": "node scripts/create-nested-exports.js",
     "build": "npm run clean && npx tsc --build --force && npm run create-exports",
     "prepare": "npm run build",
+    "switch:dev": "./scripts/switch-to-dev.sh",
+
     "watch": "tsc --watch"
   },
   "keywords": [
@@ -31,6 +33,9 @@
   ],
   "author": "",
   "license": "ISC",
+  "dependencies": {
+    "@schnellsite/template-system": "git+https://github.com/matija2209/template-system.git#master"
+  },
   "devDependencies": {
     "typescript": "^5.8.2"
   },

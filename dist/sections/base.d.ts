@@ -1,5 +1,5 @@
+import { TSection } from '@schnellsite/template-system';
 import { ExtraBlock } from '../common/blocks';
-import { TSection } from './types';
 export interface SectionBase {
     id: string;
     type: TSection;
