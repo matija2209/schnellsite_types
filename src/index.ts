@@ -7,9 +7,9 @@ export * from './common';
 export * from './firebase';
 export * from './site';
 export * from './content';
-export * from './sections';
 export * from './pages';
 export * from './google-maps';
+export * from './sections';
 
 // Named exports with namespaces for better organization
 // Firebase types
