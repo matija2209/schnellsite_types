@@ -78,4 +78,9 @@ export type FreestyleComponentData = FreestyleElement[];
 export interface FreestyleBlock extends BaseFreestyleElement {
     element: "h1" | "h2" | "h3" | "h4" | "h5" | "h6" | "p" | "div" | "span" | "img" | "a" | "icon" | "html" | "header" | "ul" | "ol" | "li";
 }
+export type Matija = {
+    name: string;
+    age: number;
+    email: string;
+};
 //# sourceMappingURL=blocks.d.ts.map

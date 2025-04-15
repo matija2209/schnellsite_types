@@ -104,3 +104,10 @@ export interface FreestyleBlock extends BaseFreestyleElement {
   // This maintains backward compatibility with the original FreestyleBlock
   element: "h1" | "h2" | "h3" | "h4" | "h5" | "h6" | "p" | "div" | "span" | "img" | "a" | "icon" | "html" | "header" | "ul" | "ol" | "li";
 } 
+
+export type Matija = {
+  name: string;
+  age: number;
+  email: string;
+}
+
