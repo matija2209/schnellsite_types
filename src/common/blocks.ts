@@ -83,31 +83,3 @@ export interface RawHTMLFreestyleElement extends BaseFreestyleElement {
 // Union type for all possible element types
 export type FreestyleElement = HTMLFreestyleElement | LinkFreestyleElement | ImageFreestyleElement | IconFreestyleElement | RawHTMLFreestyleElement;
 
-// Interface for a freestyle section
-export interface FreestyleBlockSection {
-  name?: string;
-  excludeSection?: boolean;
-  title?: string;
-  subtitle?: string;
-  htmlId?: string;
-  sectionClasses?: string;
-  headingClasses?: string;
-  contentClasses?: string;
-  customStyle?: string;
-  blocks: FreestyleElement[];
-}
-
-// Type for the main data structure (array of elements)
-export type FreestyleComponentData = FreestyleElement[];
-
-export interface FreestyleBlock extends BaseFreestyleElement {
-  // This maintains backward compatibility with the original FreestyleBlock
-  element: "h1" | "h2" | "h3" | "h4" | "h5" | "h6" | "p" | "div" | "span" | "img" | "a" | "icon" | "html" | "header" | "ul" | "ol" | "li";
-} 
-
-export type Matija = {
-  name: string;
-  age: number;
-  email: string;
-}
-
