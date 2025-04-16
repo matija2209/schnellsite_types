@@ -1,6 +1,7 @@
 import { TestimonialsSectionTemplate } from '@schnellsite/template-system';
 import { Testimonial } from '../content/testimonials';
 import { SectionBase } from './base';
+import { CTA } from '../common/cta';
 
 
 
@@ -30,4 +31,5 @@ export interface TestimonialsSection extends SectionBase {
   type: "testimonials";
   sectionTemplate?: TestimonialsSectionTemplate;
   visibility?: TestimonialsVisibility;
+  googleReviewCta?: CTA;
 } 

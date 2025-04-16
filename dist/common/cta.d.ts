@@ -3,5 +3,7 @@ export interface CTA {
     link: string;
     blockType: "cta";
     customClasses?: string;
+    customStyles?: string;
+    target?: "_blank" | "_self";
 }
 //# sourceMappingURL=cta.d.ts.map

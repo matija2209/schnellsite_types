@@ -1,6 +1,7 @@
 import { TestimonialsSectionTemplate } from '@schnellsite/template-system';
 import { Testimonial } from '../content/testimonials';
 import { SectionBase } from './base';
+import { CTA } from '../common/cta';
 type BaseVisibility = NonNullable<SectionBase['visibility']>;
 export interface TestimonialsVisibilityExtension {
     transparentTestimonialCards?: boolean;
@@ -18,6 +19,7 @@ export interface TestimonialsSection extends SectionBase {
     type: "testimonials";
     sectionTemplate?: TestimonialsSectionTemplate;
     visibility?: TestimonialsVisibility;
+    googleReviewCta?: CTA;
 }
 export {};
 //# sourceMappingURL=testimonials.d.ts.map
